@@ -1,0 +1,20 @@
+{
+  "name": "vue-templating-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fabric-ds/component-classes": "^0.0.35",
+    "@fabric-ds/vue": "^0.10.2",
+    "@vue/server-renderer": "^3.2.26",
+    "fastify": "^3.24.1",
+    "fastify-request-timing": "^2.0.1",
+    "vue": "^3.2.26"
+  }
+}
