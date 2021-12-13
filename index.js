@@ -19,8 +19,8 @@ const listings = [
 // JS IMPLEMENTATION
 const getListing = ({ title, description }) => `
   <div class="${boxClasses.box}">
-    <h3>title</h3>
-    <p>description</p>
+    <h3>${title}</h3>
+    <p>${description}</p>
   </div>
 `
 server.get('/js', async (req, reply) => {
